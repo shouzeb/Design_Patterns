@@ -7,5 +7,4 @@ public WindowType(String windowType) {
 	super();
 	this.windowType = windowType;
 }
-
 }

@@ -43,4 +43,8 @@ public class CarBuilder implements Builder{
 		this.windowType = windowType;
 		
 	}
+	public Car getResult()
+	{
+		return new Car(bodyStyle, breakType, fuelType, powerType, seatType, type, windowType);
+	}
 }
