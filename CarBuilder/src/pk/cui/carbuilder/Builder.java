@@ -9,4 +9,5 @@ public interface Builder {
 	void setBreakType(BreakType breakType);
 	void setSeatType(SeatType seatType);
 	void setWindowType(WindowType windowType);
+	void setEngine(Engine engine);
 }
