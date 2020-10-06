@@ -41,6 +41,17 @@ public class Car{
 		return windowType;
 	}
 	
+	@Override
+    public String toString(){
+		return ("-------"+this.type+"-------\nBody: External dimensions: overall length (inches): "+bodyStyle.getOverallLength()+", overall width (inches): "+bodyStyle.getWidth()+", overall height (inches): "+bodyStyle.getHeight() +", wheelbase (inches): "+bodyStyle.getWheelbase() +", front track (inches): "+ bodyStyle.getFrontTrack()+", rear track (inches): "+ bodyStyle.getRearTrack()+" and curb to curb turning circle (feet): "+bodyStyle.getCurbToCurbTurningCicle()+"\r\n"
+				+ " Power: 285 hp @ 6,500 rpm; 253 ft lb of torque @ 4,000 rpm\r\n"
+				+ " Engine: 3.5L Duramax V 6 DOHC\r\n"
+				+ " Breaks: Four-wheel disc brakes: two ventilated. Electronic brake distribution\r\n"
+				+ " Seats: Front seat center armrest.Rear seat center armrest.Split-folding rear seats\r\n"
+				+ " Windows: Laminated side windows.Fixed rear window with defroster\r\n"
+				+ " Fuel Type: Gasoline "+fuelType.getCity()+" MPG city, "+fuelType.getHighway()+" MPG highway, "+fuelType.getCombined()+" MPG combined and "+fuelType.getRange()+" mi. range");
+	}
+	
 	
 
 }
