@@ -43,13 +43,13 @@ public class Car{
 	
 	@Override
     public String toString(){
-		return ("-------"+this.type+"-------\nBody: External dimensions: overall length (inches): "+bodyStyle.getOverallLength()+", overall width (inches): "+bodyStyle.getWidth()+", overall height (inches): "+bodyStyle.getHeight() +", wheelbase (inches): "+bodyStyle.getWheelbase() +", front track (inches): "+ bodyStyle.getFrontTrack()+", rear track (inches): "+ bodyStyle.getRearTrack()+" and curb to curb turning circle (feet): "+bodyStyle.getCurbToCurbTurningCicle()+"\r\n"
-				+ " Power: 285 hp @ 6,500 rpm; 253 ft lb of torque @ 4,000 rpm\r\n"
-				+ " Engine: 3.5L Duramax V 6 DOHC\r\n"
-				+ " Breaks: Four-wheel disc brakes: two ventilated. Electronic brake distribution\r\n"
-				+ " Seats: Front seat center armrest.Rear seat center armrest.Split-folding rear seats\r\n"
-				+ " Windows: Laminated side windows.Fixed rear window with defroster\r\n"
-				+ " Fuel Type: Gasoline "+fuelType.getCity()+" MPG city, "+fuelType.getHighway()+" MPG highway, "+fuelType.getCombined()+" MPG combined and "+fuelType.getRange()+" mi. range");
+		return ("\n\n-------"+this.type+"-------\nBody: External dimensions: overall length (inches): "+bodyStyle.getOverallLength()+", overall width (inches): "+bodyStyle.getWidth()+", \noverall height (inches): "+bodyStyle.getHeight() +", wheelbase (inches): "+bodyStyle.getWheelbase() +", \nfront track (inches): "+ bodyStyle.getFrontTrack()+", rear track (inches): "+ bodyStyle.getRearTrack()+" \nand curb to curb turning circle (feet): "+bodyStyle.getCurbToCurbTurningCicle()+"\r\n"
+				+ " \nPower: 285 hp @ 6,500 rpm; 253 ft lb of torque @ 4,000 rpm\r\n"
+				+ " \nEngine: 3.5L Duramax V 6 DOHC\r\n"
+				+ " \nBreaks: Four-wheel disc brakes: two ventilated. Electronic brake distribution\r\n"
+				+ " \nSeats: Front seat center armrest.Rear seat center armrest.Split-folding rear seats\r\n"
+				+ " \nWindows: Laminated side windows.Fixed rear window with defroster\r\n"
+				+ " \nFuel Type: Gasoline "+fuelType.getCity()+" MPG city, "+fuelType.getHighway()+" MPG highway, "+fuelType.getCombined()+" MPG combined and "+fuelType.getRange()+" mi. range");
 	}
 	
 	
