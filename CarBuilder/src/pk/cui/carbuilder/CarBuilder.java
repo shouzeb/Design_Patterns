@@ -8,9 +8,10 @@ public class CarBuilder implements Builder{
 	private SeatType seatType;
 	private  Type type;
 	private WindowType windowType;
+	private Engine engine;
 	@Override
 	public void setCarType(Type type) {
-		// TODO Auto-generated method stub
+		this.type = type;
 		
 	}
 	@Override
@@ -46,5 +47,10 @@ public class CarBuilder implements Builder{
 	public Car getResult()
 	{
 		return new Car(bodyStyle, breakType, fuelType, powerType, seatType, type, windowType);
+	}
+	@Override
+	public void setEngine(Engine engine) {
+		this.engine = engine;
+		
 	}
 }
