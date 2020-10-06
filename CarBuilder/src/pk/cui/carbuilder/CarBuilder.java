@@ -9,6 +9,7 @@ public class CarBuilder implements Builder{
 	private  Type type;
 	private WindowType windowType;
 	private Engine engine;
+	
 	@Override
 	public void setCarType(Type type) {
 		this.type = type;
