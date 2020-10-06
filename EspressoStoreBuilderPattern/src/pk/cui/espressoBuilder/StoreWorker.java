@@ -8,6 +8,7 @@ public StoreWorker(String name) {
 	this.name = name;
 }
 public Espresso  makeEspresso(Builder builder) {
+	builder.setType(Type.Espresso);
 	builder.setSize(Size.Single);
 	builder.setLength(Length.Normale);
 	builder.setRoastLevel(Roast.Medium);
@@ -15,6 +16,7 @@ public Espresso  makeEspresso(Builder builder) {
 	return builder.getResult();
 }
 public Espresso makeCaffeFreddo(Builder builder) {
+	builder.setType(Type.CaffeFreddo);
 	builder.setSize(Size.Single);
 	builder.setLength(Length.Lungo);
 	builder.setRoastLevel(Roast.Ligth);

@@ -7,7 +7,9 @@ private Roast roast;
 private Size size;
 private Length length;
 public Espresso(Type type, Size size, Length length, Roast roast,double exitTemperature) {
+	
 	super();
+	//System.out.println(this.type);
 	this.length = length;
 	this.type = type;
 	this.size = size;
@@ -38,6 +40,6 @@ public Length getLength() {
 
 @Override
 public String toString() {
-	return "Espresso[size:"+getSize()+", length:"+getLength()+", roast:"+getRoast()+", temp:"+getExitTemperature()+"]";
+	return ""+getType()+"[size:"+getSize()+", length:"+getLength()+", roast:"+getRoast()+", temp:"+getExitTemperature()+"]";
 }
 }
