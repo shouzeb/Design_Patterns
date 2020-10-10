@@ -9,7 +9,7 @@ package cui.atd.objectPoolTask;
 			System.out.println();
 			System.out.println("Pool size:" + pool.size());
 
-			/* simple usage - get the object */
+			/* simple usage - get the object */  
 			ExpensiveResource obj0 = pool.get();
 			/* simple usage - use the object */
 			obj0.doSomething();
