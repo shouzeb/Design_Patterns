@@ -9,5 +9,5 @@ public class ExpensiveResource {
 
 	public void doSomething() {
 		System.out.println("I am resource " + this.name + ".");
-	}
+	} 
 }
