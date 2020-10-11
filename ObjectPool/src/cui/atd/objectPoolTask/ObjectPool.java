@@ -8,6 +8,7 @@ public abstract class ObjectPool<T> implements ObjectFactory<T>, Pool<T> {
 	private int size;
   
 	private boolean shutdown;
+	
 
 	private BlockingQueue<T> objects;
 
