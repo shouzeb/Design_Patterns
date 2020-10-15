@@ -12,7 +12,7 @@ image.display();
 Image proxyImage = new ProxyImage("test_10.jpg");
 	System.out.println(proxyImage.getFileName());
 	proxyImage.display();
-	
+	 
 	
 	}
 
