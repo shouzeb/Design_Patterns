@@ -9,7 +9,7 @@ public class NameCard extends Decorator {
 
 	@Override
 	public void bake() {
-		System.out.println("Name card: 80");
+		System.out.println("Name card: "+getPrice());
 	}
 
 	@Override
