@@ -1,7 +1,7 @@
 package pk.cui.questionOne;
 
 public class NameCard extends Decorator {
-	int price = 120;
+	int price = 75;
 
 	NameCard(Cake c) {
 		super(c);
