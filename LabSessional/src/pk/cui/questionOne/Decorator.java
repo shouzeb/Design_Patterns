@@ -1,9 +1,10 @@
 package pk.cui.questionOne;
 
-public abstract class Decorator implements Cake{
+public abstract class Decorator implements Cake {
 	protected Cake decoratedCake;
-Decorator(Cake c){
-	this.decoratedCake=c;
-}
+
+	public Decorator(Cake c) {
+		this.decoratedCake = c;
+	}
 
 }

@@ -1,7 +1,8 @@
 package pk.cui.questionOne;
 
-public class ButterCreamFrosting extends Decorator{
-	int price=120;
+public class ButterCreamFrosting extends Decorator {
+	int price = 120;
+
 	ButterCreamFrosting(Cake c) {
 		super(c);
 	}
@@ -9,12 +10,10 @@ public class ButterCreamFrosting extends Decorator{
 	public int getPrice() {
 		return price;
 	}
+
 	@Override
 	public void bake() {
 		System.out.println("ButterFrosting: 100");
 	}
-
-
-	
 
 }

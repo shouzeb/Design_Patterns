@@ -1,8 +1,8 @@
 package pk.cui.questionOne;
 
+public class WhippedCreamFrosting extends Decorator {
+	private int price = 100;
 
-public class WhippedCreamFrosting extends Decorator{
-	private int price=100;
 	WhippedCreamFrosting(Cake c) {
 		super(c);
 	}
