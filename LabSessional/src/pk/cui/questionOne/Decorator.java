@@ -1,8 +1,8 @@
 package pk.cui.questionOne;
 
-public abstract class CakeDecorator implements Cake{
+public abstract class Decorator implements Cake{
 	protected Cake decoratedCake;
-CakeDecorator(Cake c){
+Decorator(Cake c){
 	this.decoratedCake=c;
 }
 
