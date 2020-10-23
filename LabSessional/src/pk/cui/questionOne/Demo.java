@@ -15,7 +15,7 @@ public class Demo {
 		System.out.println("Total Bill: " + (cake.getPrice() + cream.getPrice() + card.getPrice()));
 		//order 2
 		System.out.println("ORDER 2");
-		Cake cake2 = new StrawberryCake();
+		Cake cake2 = new StrawberryCake(cake);
 		System.out.print("You have ordered: ");
 		cake2.bake();
 		System.out.print("Total Bill: " + cake2.getPrice());

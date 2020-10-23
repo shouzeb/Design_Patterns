@@ -1,6 +1,11 @@
 package pk.cui.questionOne;
 
-public class StrawberryCake implements Cake {
+public class StrawberryCake extends Decorator {
+	public StrawberryCake(Cake c) {
+		super(c);
+		
+	}
+
 	int price = 350;
 
 	@Override
