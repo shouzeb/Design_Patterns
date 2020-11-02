@@ -16,7 +16,7 @@ public class StrawberryCake extends Decorator {
 
 	@Override
 	public int getPrice() {
-		return this.price;
+		return  this.price;
 	}
 
 }
