@@ -9,7 +9,7 @@ public class StrawberryCake extends Decorator {
 	int price = 350;
 
 	@Override
-	public void bake() {
+	public void bake() { 
 		System.out.println("Strawberrycake: 350");
 
 	}
