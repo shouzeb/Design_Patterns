@@ -17,7 +17,7 @@ public class KitchenOperator implements AppliancesIterator{
 	private KitchenOperator() {
 		
 		
-		Mixer mixer = new Mixer();
+		
 		
 		appliances.add(new Appliances("0","Mixer"));
 		appliances.add(new Appliances("1","Fuser"));
