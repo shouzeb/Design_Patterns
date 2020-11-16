@@ -1,6 +1,6 @@
 package pk.atd.cui.assignmentTwo;
 
-public class Fuser implements KitchenApplianceReceiver{
+public class StarPress implements KitchenApplianceReceiver{
 
 	@Override
 	public void turnOn() {

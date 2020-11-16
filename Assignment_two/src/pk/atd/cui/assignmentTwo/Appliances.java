@@ -1,10 +1,10 @@
 package pk.atd.cui.assignmentTwo;
 
-public class AppliancesDetails {
+public class Appliances{
 	private String name;
 	private String id;
 
-	public AppliancesDetails(String id, String email) {
+	public Appliances(String id, String email) {
 		this.id=id;
 		this.name=email;
 	}
@@ -16,9 +16,11 @@ public class AppliancesDetails {
 	public String getId() {
 		return id;
 	}
+
 	@Override
 	public String toString() {
-		String str= "Profile[id = "+getId()+", email= "+getName()+"]";
-		return str;
+		return "Appliances [name=" + name + ", id=" + id + "]";
+	}
 	
-}}
+
+}

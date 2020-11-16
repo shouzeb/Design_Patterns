@@ -1,6 +1,8 @@
 package pk.atd.cui.assignmentTwo;
 
-public class Fuser implements KitchenApplianceReceiver{
+public class Mixer implements KitchenApplianceReceiver{
+
+
 
 	@Override
 	public void turnOn() {
