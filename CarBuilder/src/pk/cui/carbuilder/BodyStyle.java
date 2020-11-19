@@ -12,7 +12,7 @@ public BodyStyle(double overallLength, double width, double height, double wheel
 	this.wheelbase = wheelbase;
 	this.frontTrack = frontTrack;
 	this.rearTrack = rearTrack;
-	this.curbToCurbTurningCicle = curbToCurbTurningCicle;
+	this.curbToCurbTurningCicle = curbToCurbTurningCicle;    
 }
 
 public double getCurbToCurbTurningCicle() {
