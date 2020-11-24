@@ -19,6 +19,11 @@ public class ConcreteMediator implements Mediator{
 			System.out.println("Mediator reacts on A and trigers following operations:");
 		com2.doC();
 		}
+		if (event.equals("D")){
+        	System.out.println("Mediator reacts on D and triggers following operations:");
+            com1.doB();
+            com2.doC();
+        }
 		
 		
 	}
