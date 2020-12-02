@@ -7,7 +7,11 @@ public static void main(String args[]) {
 	System.out.println("Before sorting:");
 	System.out.println(arr);
 	CharacterClass characterClass = new CharacterClass();
+	System.out.println("After Bubble Sort: ");
 	characterClass.setS(new BubbleSort());
+	characterClass.sort(arr);
+	System.out.println("\n\nAfter Heap Sort: ");
+	characterClass.setS(new HeapSort());
 	characterClass.sort(arr);
 }
 }
