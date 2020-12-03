@@ -12,6 +12,6 @@ public static void main(String args[]) {
 	characterClass.sort(arr);
 	System.out.println("\n\nAfter Heap Sort: ");
 	characterClass.setS(new HeapSort());
-	characterClass.sort(arr);
+	characterClass.sort (arr);
 }
 }
