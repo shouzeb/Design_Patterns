@@ -9,7 +9,7 @@ public class Demo {
 
 		long naive = test(naiveDownloader);
 		long smart = test(smartDownloader);
-		System.out.print("Time saved by caching proxy: " + (naive - smart) + "ms");
+		System.out.print(" Time saved by caching proxy: " + (naive - smart) + "ms");
 
 	}
 
@@ -18,7 +18,7 @@ public class Demo {
 
 		// User behavior in our app:
 		downloader.renderPopularVideos();
-		downloader.renderVideoPage("catzzzzzzzzz");
+		downloader.renderVideoPage(" catzzzzzzzzz");
 		downloader.renderPopularVideos();
 		downloader.renderVideoPage("lecturesvideoo");
 		// Users might visit the same page quite often.
