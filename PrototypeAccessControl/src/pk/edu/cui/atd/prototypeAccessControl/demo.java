@@ -2,7 +2,7 @@ package pk.edu.cui.atd.prototypeAccessControl;
 
 public class demo {
 	
-	public static void main(String[] args) {
+	public static void main (String[] args) {
         AccessControl userAccessControl = AccessControlProvider.getAccessControlObject("USER");
         User user = new User("User A", "USER Level", userAccessControl);
  
