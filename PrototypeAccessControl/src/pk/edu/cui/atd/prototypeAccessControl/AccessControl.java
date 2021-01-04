@@ -8,7 +8,7 @@ public class AccessControl implements Prototype{
     private String access;
     private AccessControl ac;
  
-    public AccessControl(String controlLevel,String access){
+    public AccessControl (String controlLevel,String access){
         this.controlLevel = controlLevel;
         this.access = access;
     }
