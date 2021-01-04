@@ -4,7 +4,7 @@ public class User {
 	 
     private String userName;
     private String level;
-    private AccessControl accessControl;
+    private  AccessControl accessControl;
  
     public User(String userName,String level, AccessControl accessControl){
         this.userName = userName;
