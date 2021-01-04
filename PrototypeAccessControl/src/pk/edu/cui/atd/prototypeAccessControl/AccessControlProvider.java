@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class AccessControlProvider {
 
-	private static Map<String, AccessControl>map = new HashMap<String, AccessControl>();
+	private static Map <String, AccessControl>map = new HashMap<String, AccessControl>();
 	 
     static {
  
