@@ -12,6 +12,7 @@ public class User {
         this.accessControl = accessControl;
     }
  
+    
     public String getUserName() {
         return userName;
     }
@@ -22,7 +23,7 @@ public class User {
         return level;
     }
     public void setLevel(String level) {
-        this.level = level;
+         this.level = level;
     }
     public AccessControl getAccessControl() {
         return accessControl;
