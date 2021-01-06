@@ -1,7 +1,8 @@
 package task;
 
 public interface Xpay {
-String getCreditCardNo();
+
+	String getCreditCardNo();
 String getCustomerName();
 String getCardExpMonth();
 String getCardExpYear();
@@ -14,4 +15,5 @@ void  setCardExpMonth(String string);
 void  setCardExpYear(String string);
 void  setCardCVVNo(Short cardCVVNo);
 void  setAmount(double amount);
+
 }
