@@ -1,6 +1,7 @@
 package task;
 
 public class XpayToPayDAdapter implements PayD{
+	
 	Xpay xPay;
 	
 public XpayToPayDAdapter(Xpay xpay) {
@@ -13,34 +14,42 @@ String custCardNo, cardOwnerName, cardExpMonthDate;
 int CVVNo;
 
 double totalAmount;
+
 @Override
 public String getCustCardNo() {
 	return custCardNo;
 }
+
 @Override
 public void setCustCardNo(String custCardNo) {
 	this.custCardNo = custCardNo;
 }
+
 @Override
 public String getCardOwnerName() {
 	return cardOwnerName;
 }
+
 @Override
 public void setCardOwnerName(String cardOwnerName) {
 	this.cardOwnerName = cardOwnerName;
 }
+
 @Override
 public String getCardExpMonthDate() {
 	return cardExpMonthDate;
 }
+
 @Override
 public void setCardExpMonthDate(String cardExpMonthDate) {
 	this.cardExpMonthDate = cardExpMonthDate;
 }
+
 @Override
 public int getCVVNo() {
 	return CVVNo;
 }
+
 @Override
 public void setCVVNo(int cVVNo) {
 	CVVNo = cVVNo;
