@@ -1,6 +1,7 @@
 package task;
 
 public class XpayImpl implements Xpay{
+	
 private String creditCardNo, customerName, cardExpMonth, cardExpYear;
 Short cardCVVNo;
 double amount;
