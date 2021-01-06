@@ -1,7 +1,8 @@
 package task;
 
 public interface PayD {
-String getCustCardNo();
+
+	String getCustCardNo();
 String getCardOwnerName();
 String getCardExpMonthDate();
 int getCVVNo();
@@ -11,4 +12,5 @@ void  setCardOwnerName(String string);
 void  setCardExpMonthDate(String string);
 void  setCVVNo(int CVVNo);
 void  setTotalAmount(double amount);
+
 }

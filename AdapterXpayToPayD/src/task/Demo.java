@@ -5,6 +5,7 @@ public class Demo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Object for Xpay
+		
 		Xpay xpay = new XpayImpl();
 		xpay.setCreditCardNo("4789565874102365");
 		xpay.setCustomerName("Syed Sajid Hussain");
