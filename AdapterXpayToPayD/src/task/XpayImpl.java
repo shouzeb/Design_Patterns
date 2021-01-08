@@ -9,6 +9,7 @@ double amount;
 public String getCreditCardNo() {
 	return creditCardNo;
 }
+
 @Override
 public void setCreditCardNo(String creditCardNo) {
 	this.creditCardNo = creditCardNo;
