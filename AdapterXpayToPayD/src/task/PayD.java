@@ -3,8 +3,11 @@ package task;
 public interface PayD {
 
 	String getCustCardNo();
+	
 String getCardOwnerName();
+
 String getCardExpMonthDate();
+
 int getCVVNo();
 double getTotalAmount();
 void setCustCardNo(String string);
