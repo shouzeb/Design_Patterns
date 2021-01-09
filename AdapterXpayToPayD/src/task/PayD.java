@@ -9,6 +9,7 @@ String getCardOwnerName();
 String getCardExpMonthDate();
 
 int getCVVNo();
+
 double getTotalAmount();
 void setCustCardNo(String string);
 void  setCardOwnerName(String string);
