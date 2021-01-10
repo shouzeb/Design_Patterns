@@ -11,7 +11,9 @@ public class Demo {
 		SquareGeometry squareGeometry = new SquareGeometry();
 		
 		shapes.add(cricleGeomerty.createShape());
+		
 		shapes.add(squareGeometry.createShape());
+		
 		shapes.add(squareGeometry.createShape());
 		
 		for(Shape s:shapes){
