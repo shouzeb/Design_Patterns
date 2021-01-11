@@ -1,4 +1,5 @@
 package cui.atd.edu.pk.factoryMethod;
+
 public class Square implements Shape{
 
 	
