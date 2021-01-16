@@ -5,6 +5,7 @@ private String[] cha = new String[10];
 private Sorting s;
 
 public String[] getCha() {
+	
 	return cha;
 }
 public void setCha(String[] cha) {
