@@ -27,7 +27,7 @@ class BubbleSort implements Sorting{
 		BubbleSort ob = new BubbleSort(); 
 		char arr[] = arrr; 
 		ob.bubbleSort(arr); 
-		System.out.println("Sorted array"); 
+		System.out.println(" Sorted array"); 
 		ob.printArray(arr); 
 	} 
 } 
