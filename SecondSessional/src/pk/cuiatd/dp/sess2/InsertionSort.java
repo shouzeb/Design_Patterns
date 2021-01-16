@@ -5,6 +5,7 @@ class InsertionSort implements Sorting{
 	/*Function to sort array using insertion sort*/
 	void sort(char arr[]) { 
 		int n = arr.length; 
+		
 		for (int i = 1; i < n; ++i) { 
 			char key = arr[i]; 
 			int j = i - 1; 
