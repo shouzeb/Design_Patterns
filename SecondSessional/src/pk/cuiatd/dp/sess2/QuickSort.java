@@ -8,6 +8,7 @@ class QuickSort implements Sorting{
 	smaller (smaller than pivot) to left of 
 	pivot and all greater elements to right 
 	of pivot */
+	
 	int partition(char arr[], int low, int high) { 
 		int pivot = arr[high]; 
 		int i = (low-1); // index of smaller element 
