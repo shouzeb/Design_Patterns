@@ -2,6 +2,7 @@ package pk.cuiatd.dp.sess2;
 
 //Java program for implementation of Selection Sort 
 class SelectionSort implements Sorting{ 
+
 	void sort(char[] arr) { 
 		int n = arr.length; 
 
