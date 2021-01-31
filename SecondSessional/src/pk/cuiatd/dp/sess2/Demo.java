@@ -11,7 +11,7 @@ public static void main(String args[]) {
 	System.out.println("After Bubble Sort: ");
 	characterClass.setS(new BubbleSort());
 	characterClass.sort(arr);
-	System.out.println("\n\nAfter Heap Sort: ");
+	System.out.println("\n\n\nAfter Heap Sort: ");
 	characterClass.setS(new HeapSort());
 	characterClass.sort (arr);
 }
