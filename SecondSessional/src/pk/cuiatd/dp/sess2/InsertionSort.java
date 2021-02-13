@@ -4,6 +4,7 @@ package pk.cuiatd.dp.sess2;
 class InsertionSort implements Sorting{ 
 	/*Function to sort array using insertion sort*/
 	void sort(char arr[]) { 
+		
 		int n = arr.length; 
 		
 		for (int i = 1; i < n; ++i) { 
