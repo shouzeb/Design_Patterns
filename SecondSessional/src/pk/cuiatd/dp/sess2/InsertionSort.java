@@ -7,6 +7,7 @@ class InsertionSort implements Sorting{
 	
 	void sort(char arr[]) { 
 		
+		
 		int n = arr.length; 
 		
 		
