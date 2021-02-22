@@ -1,6 +1,6 @@
 package pk.cuiatd.dp.sess2;
 
-//Java program for implementation of Insertion Sort 
+ 
 class InsertionSort implements Sorting{ 
 	
 	/*Function to sort array using insertion sort*/
