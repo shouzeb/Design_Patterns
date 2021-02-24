@@ -24,7 +24,7 @@ public class Demo {
 	
 		student2Document.setAuthor("xyz"); 
 		try {
-			System.out.println(" Student 1 tries to update the document with his version at same time"+ student2Document.getVersion());
+			System.out.println(" Student 1  tries to update the document with his version at same time"+ student2Document.getVersion());
 			docRepo.update(student2Document); 
 		} 
 		catch (VersionMismatchException e) {
