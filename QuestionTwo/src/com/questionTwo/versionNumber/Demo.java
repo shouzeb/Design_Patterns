@@ -13,7 +13,7 @@ public class Demo {
 		doc.setId(docID);
 		docRepo.add(doc);
 		
-		System.out.println("An empty document with version "+ doc.getVersion()+ " was added to repo.");
+		System.out.println("An empty  document with version "+ doc.getVersion()+ " was added to repo.");
 		
 		final Document student1Document = docRepo.get(docID);
 		final Document student2Document = docRepo.get(docID);
