@@ -14,7 +14,7 @@ public class Configuration {
 
 	private Configuration(){
 		try {
-			File file = new File("config.properties");
+			File file = new File("cconfig.properties");
 			FileInputStream fileInput = new FileInputStream(file);
 			Properties properties = new Properties();
 			properties.load(fileInput);
