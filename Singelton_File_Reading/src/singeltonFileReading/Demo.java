@@ -6,7 +6,7 @@ public class Demo {
 		Configuration config = Configuration.getInstance();
 		System.out.println("Singleton file reading  . ");
 		System.out.println(config.getValue("mode"));
-		System.out.println(config.getValue("font-size"));
+		System.out.println(config.getValue("font-size "));
 		System.out.println(config.getValue("font-type"));
 
 	}
