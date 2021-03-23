@@ -6,7 +6,7 @@ import java.util.Iterator;
 public class Demo {
 
 	public static void main(String[] args) {
-		String roman = "MMCMXXV";
+		String roman = "MMMCMXXV";
 		Context context = new Context(roman);
 
 		// Build the 'parse tree' /AST
