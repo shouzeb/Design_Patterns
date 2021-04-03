@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Commentary implements Publisher{
  ArrayList<Subscriber> subscribers = new ArrayList<Subscriber>();
- 
+    private int car;
 	private String desc;
  
  @Override
