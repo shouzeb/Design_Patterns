@@ -22,7 +22,8 @@ class BubbleSort implements Sorting{
 		System.out.println(); 
 	} 
 
-	// Driver method to test above 
+	// Driver method to test above
+	
 	public void SortMethod(char[] arrr){ 
 		BubbleSort ob = new BubbleSort(); 
 		char arr[] = arrr; 
