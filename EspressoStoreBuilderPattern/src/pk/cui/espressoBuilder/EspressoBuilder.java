@@ -7,6 +7,7 @@ public class EspressoBuilder implements Builder{
 	private Roast roast;
 	private Size size;
 	private Length length;
+	
 	@Override
 	public void setSize(Size size) {
 		this.size = size;
