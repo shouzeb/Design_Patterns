@@ -4,6 +4,7 @@ public class CaffeFreddoBuilder implements Builder{
 	private double exitTemperature;
 	private Type type;
 	private Roast roast;
+	
 	private Size size;
 	private Length length;
 	@Override
