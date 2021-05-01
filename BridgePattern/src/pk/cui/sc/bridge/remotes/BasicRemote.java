@@ -8,7 +8,9 @@ public class BasicRemote implements Remote {
 	public BasicRemote() {}
 
 	public BasicRemote(Device device) {
+		
 		this.device = device;
+	
 	}
 
 	@Override
