@@ -20,7 +20,9 @@ public class BasicRemote implements Remote {
 		System.out.println("Remote: power toggle.");
 		if (device.isEnabled()) {
 			device.disable();
-		} else {
+		} 
+		else {
+			
 			device.enable();
 		}
 	}
