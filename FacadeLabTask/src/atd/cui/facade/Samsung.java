@@ -3,8 +3,10 @@ package atd.cui.facade;
 
 public class Samsung implements MobileShop {  
 	@Override  
-	public void modelNo() {  
+	public void modelNo() { 
+		
 		System.out.println(" Samsung galaxy tab 3 ");  
+
 	}  
 	@Override  
 	public void price() {  
