@@ -10,9 +10,11 @@ public class ShopKeeper {
 		samsung= new Samsung();  
 		blackberry=new Blackberry();  
 	}  
-	public void sellIPhone(){  
+	public void sellIPhone(){
+		
 		iphone.modelNo();  
 		iphone.price();  
+
 	}  
 	public void sellSamsung(){  
 		samsung.modelNo();  
