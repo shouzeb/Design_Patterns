@@ -20,7 +20,8 @@ public class ShopKeeper {
 		samsung.modelNo();  
 		samsung.price();  
 	}  
-	public void sellBlackberry(){  
+	public void sellBlackberry(){ 
+		
 		blackberry.modelNo();  
 		blackberry.price();  
 	}  
