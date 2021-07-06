@@ -17,6 +17,7 @@ void setCustCardNo(String string);
 void  setCardOwnerName(String string);
 void  setCardExpMonthDate(String string);
 void  setCVVNo(int CVVNo);
+
 void  setTotalAmount(double amount);
 
 }
