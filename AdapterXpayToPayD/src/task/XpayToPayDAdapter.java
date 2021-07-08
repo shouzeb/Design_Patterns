@@ -11,6 +11,7 @@ public XpayToPayDAdapter(Xpay xpay) {
 	}
 
 String custCardNo, cardOwnerName, cardExpMonthDate;
+
 int CVVNo;
 
 double totalAmount;
