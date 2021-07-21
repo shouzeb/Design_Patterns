@@ -12,6 +12,7 @@ public class Demo {
 		xpay.setCustomerName("Syed Sajid Hussain");
 		xpay.setCardExpMonth("10");
 		xpay.setCardExpYear("25");
+		
 		xpay.setCardCVVNo((short)235);
 		xpay.setAmount(2565.23);
 		PayD payD = new XpayToPayDAdapter(xpay);
