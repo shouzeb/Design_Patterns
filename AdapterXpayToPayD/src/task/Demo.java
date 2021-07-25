@@ -20,6 +20,7 @@ public class Demo {
 		System.out.println(payD.getCustCardNo());
 		System.out.println(payD.getCardExpMonthDate());
 		System.out.println(payD.getCVVNo());
+		
 		System.out.println(payD.getTotalAmount());
 	}
 
