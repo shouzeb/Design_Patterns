@@ -7,6 +7,7 @@ public enum Action {
 	NONE("", "");
 
 	private String title;
+	
 	private String description;
 
 	Action(String title, String description) {
