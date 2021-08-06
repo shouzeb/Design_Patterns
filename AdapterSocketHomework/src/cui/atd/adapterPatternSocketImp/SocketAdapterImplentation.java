@@ -19,6 +19,7 @@ Socket socket = new Socket();
 	
 	private Volt convertVolts(Volt input, int factor){
 		int result = input.getVolts()/factor;
+		
 		Volt v = new Volt(result);
 		return v;
 	}
