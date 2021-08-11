@@ -9,6 +9,7 @@ public Volt(int volts) {
 }
 
 public int getVolts() {
+	
 	return volts;
 }
 
