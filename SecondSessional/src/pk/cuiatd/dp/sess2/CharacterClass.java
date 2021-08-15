@@ -12,6 +12,7 @@ public void setCha(String[] cha) {
 	this.cha = cha;
 }
 public Sorting getS() {
+	
 	return s;
 }
 public void setS(Sorting s) {
