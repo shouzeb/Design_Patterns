@@ -7,6 +7,7 @@ public static void main(String args[]) {
 	
 	System.out.println("Before sorting:");
 	System.out.println(arr);
+	
 	CharacterClass characterClass = new CharacterClass();
 	System.out.println("After Bubble Sort: ");
 	characterClass.setS(new BubbleSort());
