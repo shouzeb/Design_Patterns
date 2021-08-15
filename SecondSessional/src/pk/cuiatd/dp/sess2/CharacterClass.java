@@ -10,6 +10,7 @@ public String[] getCha() {
 	
 }
 public void setCha(String[] cha) {
+	
 	this.cha = cha;
 }
 public Sorting getS() {
