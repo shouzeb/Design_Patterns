@@ -7,6 +7,7 @@ private Sorting s;
 public String[] getCha() {
 	
 	return cha;
+	
 }
 public void setCha(String[] cha) {
 	this.cha = cha;
